@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182C38F91E54651700BA708B /* Singleton.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 182C38F81E54651700BA708B /* Singleton.rtf */; };
 		18ACE7FB1E5415C000993A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ACE7FA1E5415C000993A73 /* AppDelegate.swift */; };
 		18ACE7FD1E5415C000993A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ACE7FC1E5415C000993A73 /* ViewController.swift */; };
 		18ACE8001E5415C000993A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ACE7FE1E5415C000993A73 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182C38F81E54651700BA708B /* Singleton.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Singleton.rtf; sourceTree = "<group>"; };
 		18ACE7F71E5415C000993A73 /* ArchitectureConcepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureConcepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ACE7FA1E5415C000993A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ACE7FC1E5415C000993A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		18ACE80C1E5415E500993A73 /* SingleTon */ = {
 			isa = PBXGroup;
 			children = (
+				182C38F81E54651700BA708B /* Singleton.rtf */,
 			);
 			name = SingleTon;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				18ACE8051E5415C000993A73 /* LaunchScreen.storyboard in Resources */,
 				18ACE8021E5415C000993A73 /* Assets.xcassets in Resources */,
+				182C38F91E54651700BA708B /* Singleton.rtf in Resources */,
 				18ACE8001E5415C000993A73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +309,7 @@
 				18ACE80B1E5415C100993A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

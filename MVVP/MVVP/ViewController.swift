@@ -102,18 +102,18 @@ class ContactsTableViewCell: UITableViewCell {
 
 //MODEL
 
-open class Contact: NSObject {
-
-	var fullName: String {
-		get {
-			let name = "dddd"
-//			if let firstName = firstName {
-//				name += firstName
-//			}
-//			if let lastName = lastName {
-//				name += " \(lastName)"
-//			}
-			return name
-		}
-	}
-}
+//open class Contact: NSObject {
+//
+//	var fullName: String {
+//		get {
+//			let name = "dddd"
+////			if let firstName = firstName {
+////				name += firstName
+////			}
+////			if let lastName = lastName {
+////				name += " \(lastName)"
+////			}
+//			return name
+//		}
+//	}
+//}

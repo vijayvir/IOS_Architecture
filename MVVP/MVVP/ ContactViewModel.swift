@@ -11,23 +11,21 @@ import Foundation
 // VIEW MODEL
 public struct ContactViewModel
 {
-	
 	var fullName: String
-	
 }
 
-class ContactViewModelController {
-
+class ContactViewModelController
+{
 	fileprivate var contactViewModelList: [ContactViewModel] = []
 
-	var contactsCount: Int {
+	 var contactsCount: Int {
 		
 		return contactViewModelList.count
+		
 	}
 
 	func retrieveContacts(_ success: (() -> Void)?, failure: (() -> Void)?) {
 		
-
 		success?()
 	}
 
